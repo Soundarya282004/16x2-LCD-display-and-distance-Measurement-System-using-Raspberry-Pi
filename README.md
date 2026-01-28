@@ -13,15 +13,10 @@ The ultrasonic sensor calculates the distance by sending sound waves and measuri
 🧰 Hardware Required
 
 - Raspberry Pi (any model with GPIO)
-
 - HC-SR04 Ultrasonic Sensor
-
 - 16x2 LCD Display (without I2C)
-
 - Jumper wires
-
 - Breadboard
-
 - 220Ω resistor (recommended for LCD backlight)
 
 🔌 GPIO Pin Connections
