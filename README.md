@@ -3,16 +3,11 @@ This project uses a Raspberry Pi, an ultrasonic sensor, and a 16x2 LCD display t
 
 The ultrasonic sensor calculates the distance by sending sound waves and measuring the time taken for the echo to return. The measured distance is then displayed on an LCD screen and printed in the terminal.
 
-🚀 Features
-
+🚀 Features:
 - 📡 Measures distance using an HC-SR04 Ultrasonic Sensor
-
 - 🖥️ Displays real-time distance on a 16x2 LCD
-
 - 🧠 Uses Raspberry Pi GPIO pins for hardware control
-
 - ⏱️ Continuously updates distance every 0.5 seconds
-
 - 💻 Also prints the distance in the terminal for monitoring
 
 🧰 Hardware Required
