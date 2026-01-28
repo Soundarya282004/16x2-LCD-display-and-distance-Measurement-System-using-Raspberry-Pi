@@ -47,8 +47,7 @@ Sensor Pin	Raspberry Pi GPIO
 - The time difference between sending and receiving is calculated.
 - Distance is computed using:
 
-      𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒 = 𝑇𝑖𝑚𝑒 × 𝑆𝑝𝑒e𝑑 𝑜𝑓 𝑆𝑜𝑢𝑛𝑑 (34300 𝑐𝑚/𝑠)
-                             2
+      𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒 = (𝑇𝑖𝑚𝑒 × 𝑆𝑝𝑒e𝑑 𝑜𝑓 𝑆𝑜𝑢𝑛𝑑 (34300 𝑐𝑚/𝑠)) / 2
 Division by 2 accounts for the sound traveling to the object and back.
 
 2️⃣ LCD Display
