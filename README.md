@@ -22,7 +22,7 @@ The ultrasonic sensor calculates the distance by sending sound waves and measuri
 
 Ultrasonic Sensor (HC-SR04)
 
-Sensor Pin	Raspberry Pi GPIO
+Sensor Pin   	Raspberry Pi GPIO
 
 - VCC ---	5V
 - GND ---	GND
@@ -30,7 +30,7 @@ Sensor Pin	Raspberry Pi GPIO
 - ECHO ---	GPIO 20 (use voltage divider to reduce 5V to 3.3V)
 
 16x2 LCD Pins
-- LCD Pin ---	GPIO Pin
+LCD Pin     	GPIO Pin
 - RS ---	GPIO 2
 - E ---	GPIO 3
 - D4 ---	GPIO 4
