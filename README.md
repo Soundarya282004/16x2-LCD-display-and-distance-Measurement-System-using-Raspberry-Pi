@@ -11,7 +11,6 @@ The ultrasonic sensor calculates the distance by sending sound waves and measuri
 - 💻 Also prints the distance in the terminal for monitoring
 
 🧰 Hardware Required:
-
 - Raspberry Pi (any model with GPIO)
 - HC-SR04 Ultrasonic Sensor
 - 16x2 LCD Display (without I2C)
