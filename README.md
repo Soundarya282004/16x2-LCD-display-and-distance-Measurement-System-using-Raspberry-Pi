@@ -10,7 +10,7 @@ The ultrasonic sensor calculates the distance by sending sound waves and measuri
 - ⏱️ Continuously updates distance every 0.5 seconds
 - 💻 Also prints the distance in the terminal for monitoring
 
-🧰 Hardware Required
+🧰 Hardware Required:
 
 - Raspberry Pi (any model with GPIO)
 - HC-SR04 Ultrasonic Sensor
@@ -20,21 +20,23 @@ The ultrasonic sensor calculates the distance by sending sound waves and measuri
 - 220Ω resistor (recommended for LCD backlight)
 
 🔌 GPIO Pin Connections
+
 Ultrasonic Sensor (HC-SR04)
+
 Sensor Pin	Raspberry Pi GPIO
-VCC ---	5V
-GND ---	GND
-TRIG ---	GPIO 21
-ECHO ---	GPIO 20 (use voltage divider to reduce 5V to 3.3V)
+-VCC ---	5V
+-GND ---	GND
+-TRIG ---	GPIO 21
+-ECHO ---	GPIO 20 (use voltage divider to reduce 5V to 3.3V)
 
 16x2 LCD Pins
-LCD Pin ---	GPIO Pin
-RS ---	GPIO 2
-E ---	GPIO 3
-D4 ---	GPIO 4
-D5 ---	GPIO 17
-D6 ---	GPIO 27
-D7 ---	GPIO 22
+- LCD Pin ---	GPIO Pin
+- RS ---	GPIO 2
+- E ---	GPIO 3
+- D4 ---	GPIO 4
+- D5 ---	GPIO 17
+- D6 ---	GPIO 27
+- D7 ---	GPIO 22
 
 🧠 How It Works
 1️⃣ Distance Measurement
